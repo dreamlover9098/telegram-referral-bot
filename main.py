@@ -1,7 +1,8 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes, ChatMemberHandler
+import os
+TOKEN = os.getenv("8534738656:AAHvzZLIaA4FooC35ViwBesgsnGzRsBVdAo")
 
-TOKEN = "8534738656:AAHvzZLIaA4FooC35ViwBesgsnGzRsBVdAo"
 CHANNEL_ID = -1003650837824 # apne channel ka ID
 YOUTUBE_LINK = "https://youtube.com/@sasteheist?si=VN5cWyqSYOMt0Guf"
 
